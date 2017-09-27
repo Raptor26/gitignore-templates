@@ -2,15 +2,53 @@
 *
 
 # Исключение из игнорирования файлов со следующими расширениями:
+
+# Microsoft office:
 !*.docx
 !*.doc
+!*.dot
+!*.dotm
+!*.dotx
+
+!*.xlsx
+!*.csv
+!*.ods
+!*.xlsx
+!*.xlsb
+!*.xlsm
+
+!*.pptx
+!*.potx
+!*.pps
+!*.ppsm
+!*.ppsx
+!*ppt
+
+# Игнорирование сервисных файлов microsoft office:
+~*
+
+# OpenDocument:
+!*.odt
+!*.odm
+!*.html
+!*.ods
+!*.odg
+!*.odp
+!*.odf
+!*.odb
+!*.oxt
+
+# Файлы с исходным кодом:
 !*.c
 !*.h
-!*pdf
-!.xlsx
-!*pptx
-!.gitignore
 
-# Включение в игнорирование сервисных файлов:
-~*
+# Форматы документации:
+!*.pdf
+!*.txt
+!*.md
+
+!*.gitignore
+
+
+
 
